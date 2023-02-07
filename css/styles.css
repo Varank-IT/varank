@@ -43,13 +43,13 @@ main {
 	text-align: center;
 }
 
-main > .intro {
+main>.intro {
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
 }
 
-main > .tagline {
+main>.tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
@@ -60,7 +60,7 @@ main > .tagline {
 }
 
 .icons-social a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .devto {
@@ -69,7 +69,8 @@ main > .tagline {
 
 .devto svg {
 	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
+	margin-left: 0.675rem;
+	;
 	width: 2.65rem;
 	height: 2.65rem;
 }
